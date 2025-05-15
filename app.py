@@ -65,7 +65,7 @@ def main():
                 
                 # Display results
                 st.success(f"Audio generated!\nTime taken:{time_end-time_start}s")
-                st.audio(full_audio,sample_rate=24000, format="audio/wav")
+                st.audio(full_audio,sample_rate=24000, format="audio/flac")
                 
                 
             except Exception as e:
